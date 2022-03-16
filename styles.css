@@ -1,0 +1,38 @@
+html, body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: auto;
+}
+
+.container {
+    border: 2px solid white;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 200px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+a {
+    margin: auto;
+    outline: none;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 1s;
+    color: gainsboro;
+}
